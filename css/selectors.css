@@ -1,0 +1,26 @@
+body {
+    background: #f0f0f0;
+}
+
+.login-div {
+    padding: 15px;
+    border: solid 1px;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+}
+
+/*a .login-div után space után belelép a login-div-en belüli elemekre lehet keresni*/
+.login-div input {
+    display:block;
+    margin-bottom: 8px;
+}
+
+
+/*atribútum selector. Mikor ugyan olyan nevű div class van de meghatározzuk hogy melyik elem.*/
+.login-div input[type="email"] {
+    border: solid 1px blue;    
+}
+
+.login-div input[type="password"] {
+    border: solid 1px red;    
+}
